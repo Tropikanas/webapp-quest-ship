@@ -1,1 +1,100 @@
+@charset "UTF-8";
 
+html{
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 18px;
+}
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: fit-content;
+    background-image: url("https://images.wallpaperscraft.com/image/single/boards_wood_texture_118306_2560x1440.jpg");
+    /*background-image: url("../Pictures/wallpaper.jpg");*/
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
+.main-square{
+    margin-top: 50px;
+    padding: 15px;
+    background-color: black;
+    color: gold;
+}
+
+.buttons{
+    position: relative;
+    top:15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    font-family: 'URW Chancery L', cursive;
+}
+
+.button{
+    position: relative;
+    width: 200px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: inline-table;
+    background-color: black;
+    color: gold;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: gold;
+    color:black;
+}
+
+.radio-button{
+    display: inline-table;
+}
+.radio-button input[type=radio]{
+    display: none;
+}
+
+.radio-button label{
+    display: inline-table;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 0px 15px;
+    background-color: black;
+    color: gold;
+    text-align: center;
+}
+.radio-button input[type=radio]:checked + label{
+    background-color: gold;
+    color:black;
+}
+.radio-button label:hover{
+    color: #000;
+    background-color: gold;
+    opacity: 65%;
+}
+
+.submit-button{
+    position: relative;
+    width: 230px;
+    height: 50px;
+    margin-left: 254px;
+    margin-bottom: 10px;
+    display: inline-table;
+    background-color: black;
+    color: gold;
+    cursor: pointer;
+}
+.submit-button:hover {
+    background-color: gold;
+    color: black;
+}
